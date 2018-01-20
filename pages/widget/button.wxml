@@ -1,0 +1,35 @@
+<view class="demo demo-button">
+    <view class="demo-transparent-title"></view>
+    <view class="demo-header">Button</view>
+    <view class="demo-content single-demo-button" style="padding-left: 10px;padding-right: 10px;">
+        <button type="button" class="am-button">主要操作 Normal</button>
+        <button type="button" class="am-button hover">主要操作 Press</button>
+        <button type="button" disabled="disabled" class="am-button disabled">主要操作 Disable</button>
+        <button type="button" class="am-button white">辅助操作 Normal</button>
+        <button type="button" class="am-button white hover">辅助按钮 Press</button>
+        <button type="button" disabled="disabled" class="am-button white disabled">辅助操作 Disable</button>
+        <button type="button" class="am-button warn">警示类操作 Normal</button>
+        <button type="button" class="am-button warn hover">警示类操作 Press</button>
+        <button type="button" disabled="disabled" class="am-button warn disabled">警示类操作 Disable</button>
+        <button class="am-button tiny-blue">按钮</button>
+        <button class="am-button tiny-blue hover">按钮</button>
+        <button class="am-button tiny-blue disabled">按钮</button>
+        <button class="am-button tiny">按钮</button>
+        <button class="am-button tiny hover">按钮</button>
+        <button class="am-button tiny disabled">按钮</button>
+        <button class="am-button loading">
+            <view class="am-loading-indicator white">
+                <view class="am-loading-item"></view>
+                <view class="am-loading-item"></view>
+                <view class="am-loading-item"></view>
+            </view>加载中...
+        </button>
+        <button class="am-button success"><i class="icon"></i>付款成功</button>
+    </view>
+    <view class="demo-footer-box">
+        <view class="demo-footer">
+            <p>Alipay AntUI Mobile</p>
+            <p>Updated June 2,2016</p>
+        </view>
+    </view>
+</view>
