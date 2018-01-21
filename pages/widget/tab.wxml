@@ -1,0 +1,47 @@
+<view class="demo demo-tab">
+    <view class="demo-transparent-title"></view>
+    <view class="demo-header">Tabs</view>
+    <view class="demo-content">
+        <view class="am-tab demo-tab1">
+            <view class="am-tab-item selected"><span>选项一</span></view>
+            <view class="am-tab-item"><span>选项二</span></view>
+        </view>
+        <view class="am-tab demo-tab2">
+            <a class="am-tab-item selected"><span>选项一</span></a>
+            <a class="am-tab-item"><span>选项二</span></a>
+            <a class="am-tab-item"><span>选项三</span></a>
+        </view>
+        <view class="am-tab demo-tab2">
+            <a class="am-tab-item selected"><span>选项一</span></a>
+            <a class="am-tab-item"><span>选项二</span></a>
+            <a class="am-tab-item"><span>选项三</span></a>
+            <a class="am-tab-item"><span>选项四</span></a>
+        </view>
+        <view class="am-tab animation demo-tab3">
+            <view class="am-tab-selected-bar"></view>
+            <a class="am-tab-item selected">选项一</a>
+            <a class="am-tab-item">选项二</a>
+            <a class="am-tab-item">选项三</a>
+            <a class="am-tab-item">选项四</a>
+        </view>
+        <view class="am-tab demo-tab-scroll">
+            <view class="am-tab-scroll-nav" style="transform: translateX(0px);">
+                <view class="am-tab-item selected"><span>选项一</span></view>
+                <view class="am-tab-item"><span>选项二</span></view>
+                <view class="am-tab-item"><span>选项三</span></view>
+                <view class="am-tab-item"><span>选项四</span></view>
+                <view class="am-tab-item"><span>选项五</span></view>
+                <view class="am-tab-item"><span>选项六</span></view>
+                <view class="am-tab-item"><span>选项七</span></view>
+                <view class="am-tab-item"><span>选项八</span></view>
+            </view>
+            <view class="am-tab-scroll-left show"></view>
+            <view class="am-tab-scroll-right show"></view>
+        </view>
+    </view>
+        <view class="demo-footer-box">
+        <view class="demo-footer">
+          <p>Crazy Urus</p>
+        </view>
+    </view>
+</view>

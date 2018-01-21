@@ -1,0 +1,25 @@
+<view class="demo demo-checkbox">
+    <view class="demo-transparent-title"></view>
+    <view class="demo-header">CheckBox</view>
+    <view class="demo-content single-demo-checkbox" style="padding-left: 10px;padding-right: 10px;">
+        <checkbox-group class="am-checkbox">
+          <label class="checkbox">
+            <checkbox value="选项1" checked="true"/>选项1
+          </label>
+          <label class="checkbox">
+            <checkbox value="选项2" checked="true"/>选项2
+          </label>
+          <label class="checkbox">
+            <checkbox value="选项3" />选项3
+          </label>
+          <label class="checkbox">
+            <checkbox value="选项4" />选项4
+          </label>
+        </checkbox-group>
+    </view>
+        <view class="demo-footer-box">
+        <view class="demo-footer">
+          <p>Crazy Urus</p>
+        </view>
+    </view>
+</view>

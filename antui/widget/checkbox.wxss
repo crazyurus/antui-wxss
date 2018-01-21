@@ -1,0 +1,12 @@
+.am-checkbox .wx-checkbox-input {
+  border-radius: 50%;
+}
+
+.am-checkbox .wx-checkbox-input-checked {
+  background: #108ee9;
+  border: 1px solid #108ee9;
+}
+
+.am-checkbox .wx-checkbox-input-checked::before {
+  color: #fff;
+}

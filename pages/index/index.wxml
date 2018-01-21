@@ -1,35 +1,65 @@
-<view class="demo demo-button">
+<view class="demo demo-list">
     <view class="demo-transparent-title"></view>
-    <view class="demo-header">Button</view>
-    <view class="demo-content single-demo-button" style="padding-left: 10px;padding-right: 10px;">
-        <button type="button" class="am-button">主要操作 Normal</button>
-        <button type="button" class="am-button hover">主要操作 Press</button>
-        <button type="button" disabled="disabled" class="am-button disabled">主要操作 Disable</button>
-        <button type="button" class="am-button white">辅助操作 Normal</button>
-        <button type="button" class="am-button white hover">辅助按钮 Press</button>
-        <button type="button" disabled="disabled" class="am-button white disabled">辅助操作 Disable</button>
-        <button type="button" class="am-button warn">警示类操作 Normal</button>
-        <button type="button" class="am-button warn hover">警示类操作 Press</button>
-        <button type="button" disabled="disabled" class="am-button warn disabled">警示类操作 Disable</button>
-        <button class="am-button tiny-blue">按钮</button>
-        <button class="am-button tiny-blue hover">按钮</button>
-        <button class="am-button tiny-blue disabled">按钮</button>
-        <button class="am-button tiny">按钮</button>
-        <button class="am-button tiny hover">按钮</button>
-        <button class="am-button tiny disabled">按钮</button>
-        <button class="am-button loading">
-            <view class="am-loading-indicator white">
-                <view class="am-loading-item"></view>
-                <view class="am-loading-item"></view>
-                <view class="am-loading-item"></view>
-            </view>加载中...
-        </button>
-        <button class="am-button success"><i class="icon"></i>付款成功</button>
+    <view class="demo-header">AntUI</view>
+    <view class="demo-content">
+        <view class="am-list">
+            <view class="am-list-header">组件</view>
+            <view class="am-list-body">
+                <navigator url="/pages/widget/button" class="am-list-item">
+                    <view class="am-list-content">按钮</view>
+                    <text class="am-bubble reddot"></text>
+                    <view class="am-list-arrow">
+                        <text class="am-icon arrow horizontal"></text>
+                    </view>
+                </navigator>
+                <navigator url="/pages/widget/card" class="am-list-item">
+                    <view class="am-list-content">卡片</view>
+                    <text class="am-bubble reddot"></text>
+                    <view class="am-list-arrow">
+                        <text class="am-icon arrow horizontal"></text>
+                    </view>
+                </navigator>
+                <navigator url="/pages/widget/checkbox" class="am-list-item">
+                    <view class="am-list-content">选择框</view>
+                    <text class="am-bubble reddot"></text>
+                    <view class="am-list-arrow">
+                        <text class="am-icon arrow horizontal"></text>
+                    </view>
+                </navigator>
+                <navigator url="/pages/widget/list" class="am-list-item">
+                    <view class="am-list-content">列表</view>
+                    <text class="am-bubble reddot"></text>
+                    <view class="am-list-arrow">
+                        <text class="am-icon arrow horizontal"></text>
+                    </view>
+                </navigator>
+                <navigator url="/pages/widget/picker" class="am-list-item">
+                    <view class="am-list-content">选择器</view>
+                    <text class="am-bubble reddot"></text>
+                    <view class="am-list-arrow">
+                        <text class="am-icon arrow horizontal"></text>
+                    </view>
+                </navigator>
+                <navigator url="/pages/widget/switch" class="am-list-item">
+                    <view class="am-list-content">开关</view>
+                    <text class="am-bubble reddot"></text>
+                    <view class="am-list-arrow">
+                        <text class="am-icon arrow horizontal"></text>
+                    </view>
+                </navigator>
+                <navigator url="/pages/widget/tab" class="am-list-item">
+                    <view class="am-list-content">选项卡</view>
+                    <text class="am-bubble reddot"></text>
+                    <view class="am-list-arrow">
+                        <text class="am-icon arrow horizontal"></text>
+                    </view>
+                </navigator>
+            </view>
+        </view>
     </view>
     <view class="demo-footer-box">
         <view class="demo-footer">
-            <p>Alipay AntUI Mobile</p>
-            <p>Updated June 2,2016</p>
+          <p>Crazy Urus</p>
         </view>
     </view>
 </view>

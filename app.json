@@ -1,11 +1,18 @@
 {
   "pages": [
-    "pages/widget/list"
+    "pages/index/index",
+    "pages/widget/button",
+    "pages/widget/card",
+    "pages/widget/checkbox",
+    "pages/widget/list",
+    "pages/widget/picker",
+    "pages/widget/switch",
+    "pages/widget/tab"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "AntUI",
     "navigationBarTextStyle": "black",
     "backgroundColor": "#f5f5f5"
   }

@@ -1,0 +1,76 @@
+<view class="demo demo-list">
+    <view class="demo-transparent-title"></view>
+    <view class="demo-header">Picker</view>
+    <view class="demo-content">
+        <view class="am-list am-list-form">
+            <view class="am-list-header">普通选择器</view>
+            <view class="am-list-body">
+                <view class="am-list-item">
+                    <view class="am-list-label">当前选择</view>
+                    <view class="am-list-control">
+                        <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+                          <view class="picker">{{array[index]}}</view>
+                        </picker>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="am-list am-list-form">
+            <view class="am-list-header">多列选择器</view>
+            <view class="am-list-body">
+                <view class="am-list-item">
+                    <view class="am-list-label">当前选择</view>
+                    <view class="am-list-control">
+                        <picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}">
+                          <view class="picker">{{multiArray[0][multiIndex[0]]}}，{{multiArray[1][multiIndex[1]]}}，{{multiArray[2][multiIndex[2]]}}</view>
+                        </picker>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="am-list am-list-form">
+            <view class="am-list-header">时间选择器</view>
+            <view class="am-list-body">
+                <view class="am-list-item">
+                    <view class="am-list-label">当前选择</view>
+                    <view class="am-list-control">
+                        <picker mode="time" value="{{time}}" start="09:01" end="21:01" bindchange="bindTimeChange">
+                          <view class="picker">{{time}}</view>
+                        </picker>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="am-list am-list-form">
+            <view class="am-list-header">日期选择器</view>
+            <view class="am-list-body">
+                <view class="am-list-item">
+                    <view class="am-list-label">当前选择</view>
+                    <view class="am-list-control">
+                        <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+                          <view class="picker">{{date}}</view>
+                        </picker>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="am-list am-list-form">
+            <view class="am-list-header">省市区选择器</view>
+            <view class="am-list-body">
+                <view class="am-list-item">
+                    <view class="am-list-label">当前选择</view>
+                    <view class="am-list-control">
+                        <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+                          <view class="picker">{{region[0]}}，{{region[1]}}，{{region[2]}}</view>
+                        </picker>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+        <view class="demo-footer-box">
+        <view class="demo-footer">
+          <p>Crazy Urus</p>
+        </view>
+    </view>
+</view>

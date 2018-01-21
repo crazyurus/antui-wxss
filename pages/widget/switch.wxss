@@ -1,0 +1,2 @@
+@import '../../antui/widget/list.wxss';
+@import '../../antui/widget/switch.wxss';

@@ -11,6 +11,10 @@
     background-clip: padding-box
 }
 
+.am-button:after {
+  opacity: 0;
+}
+
 .am-button.dynamic.processing:after,
 .am-button.tiny.processing:after {
     display: block;

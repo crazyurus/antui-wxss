@@ -1,0 +1,56 @@
+<view class="demo-header">Card</view>
+<view class="demo-content">
+    <view class="am-card">
+        <view class="am-card-header">无图标卡片</view>
+        <view class="am-card-item am-card-minfo am-card-noicon">
+            <view class="am-card-content">
+                <view class="am-card-title">卡片标题</view>
+                <view class="am-card-subtitle">副标题非必填</view>
+            </view>
+            <view class="am-list-arrow" aria-hidden="true">
+                <text class="am-icon arrow horizontal"></text>
+            </view>
+        </view>
+    </view>
+    <view class="am-card">
+        <view class="am-card-header">带图标卡片</view>
+        <view class="am-card-body">
+            <view class="am-card-item am-card-minfo">
+                <view class="am-card-thumb">
+                    <image src="https://os.alipayobjects.com/rmsportal/OhSzVdRBnfwiuCK.png"></image>
+                </view>
+                <view class="am-card-content">
+                    <view class="am-card-subtitle">手工水饺</view>
+                    <view class="am-card-title">100元代金券</view>
+                </view>
+                <view class="am-list-arrow" aria-hidden="true">
+                    <text class="am-icon arrow horizontal"></text>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="am-card">
+        <view class="am-card-header">带图和描述文字卡片样式</view>
+        <view class="am-card-body">
+            <view class="am-card-item">
+                <view class="am-card-minfo">
+                    <view class="am-card-thumb">
+                        <image src="https://os.alipayobjects.com/rmsportal/OhSzVdRBnfwiuCK.png"></image>
+                    </view>
+                    <view class="am-card-content">
+                        <view class="am-card-title">100元代金券</view>
+                        <view class="am-card-subtitle">手工水饺</view>
+                    </view>
+                    <view class="am-list-arrow" aria-hidden="true">
+                        <text class="am-icon arrow horizontal"></text>
+                    </view>
+                </view>
+                <view class="am-card-footnote">
+                    <image src="https://zos.alipayobjects.com/rmsportal/dvUDRkRqgqjDgzCNmpJj.png"></image>
+                    描述文字
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="am-whitespace ws20px"></view>
+</view>

@@ -26,10 +26,9 @@
         </button>
         <button class="am-button success"><i class="icon"></i>付款成功</button>
     </view>
-    <view class="demo-footer-box">
+        <view class="demo-footer-box">
         <view class="demo-footer">
-            <p>Alipay AntUI Mobile</p>
-            <p>Updated June 2,2016</p>
+          <p>Crazy Urus</p>
         </view>
     </view>
 </view>

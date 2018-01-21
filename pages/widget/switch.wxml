@@ -1,0 +1,29 @@
+<view class="demo demo-list">
+    <view class="demo-transparent-title"></view>
+    <view class="demo-header">Switch</view>
+
+    <view class="am-list">
+        <view class="am-list-header">开关</view>
+        <view class="am-list-body">
+            <view class="am-list-item">
+                <view class="am-list-content">开启</view>
+                <view class="am-switch">
+                    <switch checked />
+                </view>
+            </view>
+            <view class="am-list-item">
+                <view class="am-list-content">关闭</view>
+                <view class="am-switch">
+                    <switch />
+                </view>
+            </view>
+        </view>
+    </view>
+
+        <view class="demo-footer-box">
+        <view class="demo-footer">
+          <p>Crazy Urus</p>
+        </view>
+    </view>
+
+</view>

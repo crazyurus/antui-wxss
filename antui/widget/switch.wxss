@@ -1,0 +1,4 @@
+.am-switch .wx-switch-input-checked {
+  background: #108EE8 !important;
+  border-color: #108EE8 !important;
+}

@@ -1,7 +1,6 @@
 <view class="demo demo-list">
     <view class="demo-transparent-title"></view>
     <view class="demo-header">Lists</view>
-
     <view class="demo-content">
         <view class="am-list">
             <view class="am-list-header">带说明的列表项</view>
@@ -12,40 +11,44 @@
                 </a>
             </view>
         </view>
-
         <view class="am-list">
             <view class="am-list-header">带跳转的列表项</view>
             <view class="am-list-body">
                 <a href="javascript:void(0)" class="am-list-item">
                     <view class="am-list-content">标题文字</view>
                     <text class="am-bubble reddot"></text>
-                    <view class="am-list-arrow" aria-hidden="true"><text class="am-icon arrow horizontal"></text></view>
+                    <view class="am-list-arrow" aria-hidden="true">
+                        <text class="am-icon arrow horizontal"></text>
+                    </view>
                 </a>
-
                 <a href="javascript:void(0)" class="am-list-item">
                     <view class="am-list-content">标题文字</view>
                     <text class="am-bubble reddot"></text>
-                    <view class="am-list-arrow" aria-hidden="true"><text class="am-icon arrow horizontal"></text></view>
+                    <view class="am-list-arrow" aria-hidden="true">
+                        <text class="am-icon arrow horizontal"></text>
+                    </view>
                 </a>
             </view>
         </view>
-
         <view class="am-list">
             <view class="am-list-header">带说明、跳转的列表</view>
             <view class="am-list-body">
                 <a href="javascript:void(0)" class="am-list-item">
                     <view class="am-list-content">标题文字</view>
                     <view class="am-list-extra">说明信息</view>
-                    <view class="am-list-arrow" aria-hidden="true"><text class="am-icon arrow horizontal"></text></view>
+                    <view class="am-list-arrow" aria-hidden="true">
+                        <text class="am-icon arrow horizontal"></text>
+                    </view>
                 </a>
                 <a href="javascript:void(0)" class="am-list-item">
                     <view class="am-list-content">标题文字</view>
                     <view class="am-list-extra">说明信息</view>
-                    <view class="am-list-arrow" aria-hidden="true"><text class="am-icon arrow horizontal"></text></view>
+                    <view class="am-list-arrow" aria-hidden="true">
+                        <text class="am-icon arrow horizontal"></text>
+                    </view>
                 </a>
             </view>
         </view>
-
         <view class="am-list am-list-twoline-text">
             <view class="am-list-header">带描述、跳转列表项</view>
             <view class="am-list-body">
@@ -54,33 +57,39 @@
                         <view class="am-list-title">双行列表</view>
                         <view class="am-list-brief">表述信息</view>
                     </view>
-                    <view class="am-list-arrow" aria-hidden="true"><text class="am-icon arrow horizontal"></text></view>
+                    <view class="am-list-arrow" aria-hidden="true">
+                        <text class="am-icon arrow horizontal"></text>
+                    </view>
                 </a>
                 <a href="javascript:void(0)" class="am-list-item">
                     <view class="am-list-content">
                         <view class="am-list-title">双行列表</view>
                         <view class="am-list-brief">表述信息</view>
                     </view>
-                    <view class="am-list-arrow" aria-hidden="true"><text class="am-icon arrow horizontal"></text></view>
+                    <view class="am-list-arrow" aria-hidden="true">
+                        <text class="am-icon arrow horizontal"></text>
+                    </view>
                 </a>
             </view>
         </view>
-
         <view class="am-list am-list-users-sm">
             <view class="am-list-header">带头像小图、联系人的列表项</view>
             <view class="am-list-body">
                 <view class="am-list-item">
-                    <view class="am-list-thumb"><image src="https://zos.alipayobjects.com/rmsportal/wMkOIiXzNqrSFSWYjDNe.png"></image></view>
+                    <view class="am-list-thumb">
+                        <image src="https://zos.alipayobjects.com/rmsportal/wMkOIiXzNqrSFSWYjDNe.png"></image>
+                    </view>
                     <view class="am-list-content">用户名</view>
                 </view>
             </view>
         </view>
-
         <view class="am-list am-list-users">
             <view class="am-list-header">带头像中图、摘要的列表项</view>
             <view class="am-list-body">
                 <view class="am-list-item">
-                    <view class="am-list-thumb"><image src="https://zos.alipayobjects.com/rmsportal/wMkOIiXzNqrSFSWYjDNe.png"></image></view>
+                    <view class="am-list-thumb">
+                        <image src="https://zos.alipayobjects.com/rmsportal/wMkOIiXzNqrSFSWYjDNe.png"></image>
+                    </view>
                     <view class="am-list-content">
                         <view class="am-list-title am-list-cell-twocolumn">
                             <view class="am-list-title">用户名</view>
@@ -91,90 +100,113 @@
                 </view>
             </view>
         </view>
-
         <view class="am-list am-list-users-lg">
             <view class="am-list-header">带头像大图、摘要的列表项</view>
             <view class="am-list-body">
                 <view class="am-list-item">
-                    <view class="am-list-thumb"><image src="https://zos.alipayobjects.com/rmsportal/wMkOIiXzNqrSFSWYjDNe.png"></image></view>
+                    <view class="am-list-thumb">
+                        <image src="https://zos.alipayobjects.com/rmsportal/wMkOIiXzNqrSFSWYjDNe.png"></image>
+                    </view>
                     <view class="am-list-content">
                         <view class="am-list-title">用户名</view>
                         <view class="am-list-brief">摘要信息</view>
                     </view>
-                    <view class="am-list-arrow" aria-hidden="true"><text class="am-icon arrow horizontal"></text></view>
+                    <view class="am-list-arrow" aria-hidden="true">
+                        <text class="am-icon arrow horizontal"></text>
+                    </view>
                 </view>
             </view>
         </view>
-
         <view class="am-list">
             <view class="am-list-header">带图片小图、跳转的列表项</view>
             <view class="am-list-body ">
                 <a href='javascript:void(0)' class="am-list-item am-list-item-indent line-thumb">
-                    <view class="am-list-thumb"><image src="https://gw.alipayobjects.com/zos/rmsportal/KXDIRejMrRdKlSEcLseB.png"></image></view>
+                    <view class="am-list-thumb">
+                        <image src="https://gw.alipayobjects.com/zos/rmsportal/KXDIRejMrRdKlSEcLseB.png"></image>
+                    </view>
                     <view class="am-list-content">标题文字</view>
                     <view class="am-list-extra">说明信息</view>
-                    <view class="am-list-arrow" aria-hidden="true"><text class="am-icon arrow horizontal"></text></view>
+                    <view class="am-list-arrow" aria-hidden="true">
+                        <text class="am-icon arrow horizontal"></text>
+                    </view>
                 </a>
                 <a href="javascript:void(0)" class="am-list-item am-list-item-indent line-thumb">
-                    <view class="am-list-thumb"><image src="https://gw.alipayobjects.com/zos/rmsportal/KXDIRejMrRdKlSEcLseB.png"></image></view>
+                    <view class="am-list-thumb">
+                        <image src="https://gw.alipayobjects.com/zos/rmsportal/KXDIRejMrRdKlSEcLseB.png"></image>
+                    </view>
                     <view class="am-list-content">标题文字</view>
-                    <view class="am-list-arrow" aria-hidden="true"><text class="am-icon arrow horizontal"></text></view>
+                    <view class="am-list-arrow" aria-hidden="true">
+                        <text class="am-icon arrow horizontal"></text>
+                    </view>
                 </a>
             </view>
         </view>
-
         <view class="am-list am-list-twoline">
             <view class="am-list-header">带图片中图，描述，跳转的列表项</view>
             <view class="am-list-body">
                 <a href="javascript:void(0)" class="am-list-item am-list-item-indent line-twoline">
-                    <view class="am-list-thumb"><image src="https://gw.alipayobjects.com/zos/rmsportal/KXDIRejMrRdKlSEcLseB.png"></image></view>
+                    <view class="am-list-thumb">
+                        <image src="https://gw.alipayobjects.com/zos/rmsportal/KXDIRejMrRdKlSEcLseB.png"></image>
+                    </view>
                     <view class="am-list-content">
                         <view class="am-list-title">双行列表</view>
                         <view class="am-list-brief">描述信息</view>
                     </view>
-                    <view class="am-list-arrow" aria-hidden="true"><text class="am-icon arrow horizontal"></text></view>
+                    <view class="am-list-arrow" aria-hidden="true">
+                        <text class="am-icon arrow horizontal"></text>
+                    </view>
                 </a>
-
                 <a href="javascript:void(0)" class="am-list-item am-list-item-indent line-twoline">
-                    <view class="am-list-thumb"><image src="https://gw.alipayobjects.com/zos/rmsportal/KXDIRejMrRdKlSEcLseB.png"></image></view>
+                    <view class="am-list-thumb">
+                        <image src="https://gw.alipayobjects.com/zos/rmsportal/KXDIRejMrRdKlSEcLseB.png"></image>
+                    </view>
                     <view class="am-list-content">
                         <view class="am-list-title">双行列表</view>
                         <view class="am-list-brief">描述信息</view>
                     </view>
-
-                    <view class="am-list-arrow" aria-hidden="true"><text class="am-icon arrow horizontal"></text></view>
+                    <view class="am-list-arrow" aria-hidden="true">
+                        <text class="am-icon arrow horizontal"></text>
+                    </view>
                 </a>
             </view>
         </view>
-
         <view class="am-list am-list-twoline">
             <view class="am-list-header">带图片大图，描述，跳转的列表项</view>
             <view class="am-list-body">
                 <a class="am-list-item am-list-moreline">
-                    <view class="am-list-thumb"><image src="https://gw.alipayobjects.com/zos/rmsportal/KXDIRejMrRdKlSEcLseB.png"></image></view>
+                    <view class="am-list-thumb">
+                        <image src="https://gw.alipayobjects.com/zos/rmsportal/KXDIRejMrRdKlSEcLseB.png"></image>
+                    </view>
                     <view class="am-list-content">
                         <view class="am-list-title">双行列表</view>
                         <view class="am-list-brief">描述信息</view>
                     </view>
-                    <view class="am-list-arrow" aria-hidden="true"><text class="am-icon arrow horizontal"></text></view>
+                    <view class="am-list-arrow" aria-hidden="true">
+                        <text class="am-icon arrow horizontal"></text>
+                    </view>
                 </a>
                 <a class="am-list-item am-list-moreline">
-                    <view class="am-list-thumb"><image src="https://gw.alipayobjects.com/zos/rmsportal/KXDIRejMrRdKlSEcLseB.png"></image></view>
+                    <view class="am-list-thumb">
+                        <image src="https://gw.alipayobjects.com/zos/rmsportal/KXDIRejMrRdKlSEcLseB.png"></image>
+                    </view>
                     <view class="am-list-content">
                         <view class="am-list-title">双行列表</view>
                         <view class="am-list-brief am-list-cell-noellips">描述信息</view>
                     </view>
-                    <view class="am-list-arrow" aria-hidden="true"><text class="am-icon arrow horizontal"></text></view>
+                    <view class="am-list-arrow" aria-hidden="true">
+                        <text class="am-icon arrow horizontal"></text>
+                    </view>
                 </a>
             </view>
         </view>
-
         <view class="am-list am-list-ptext">
             <view class="am-list-header">带图标的图文列表</view>
             <view class="am-list-header-sp">图文列表</view>
             <view class="am-list-body">
                 <view class="am-list-item">
-                    <view class="am-list-thumb"><image src="https://gw.alipayobjects.com/zos/rmsportal/KXDIRejMrRdKlSEcLseB.png"></image></view>
+                    <view class="am-list-thumb">
+                        <image src="https://gw.alipayobjects.com/zos/rmsportal/KXDIRejMrRdKlSEcLseB.png"></image>
+                    </view>
                     <view class="am-list-content">
                         <view class="am-list-title">标题</view>
                         <view class="am-list-brief">“全球未来机场计划”是指未来游客在海外机场，通过支付宝使用航班提醒等服务。</view>
@@ -186,7 +218,9 @@
             <view class="am-list-header">图文列表项</view>
             <view class="am-list-body">
                 <view class="am-list-item">
-                    <view class="am-list-thumb"><image src="https://gw.alipayobjects.com/zos/rmsportal/KXDIRejMrRdKlSEcLseB.png"></image></view>
+                    <view class="am-list-thumb">
+                        <image src="https://gw.alipayobjects.com/zos/rmsportal/KXDIRejMrRdKlSEcLseB.png"></image>
+                    </view>
                     <view class="am-list-content">
                         <view class="am-list-title">标题</view>
                         <view class="am-list-brief">“全球未来机场计划”是指未来游客在海外机场，通过支付宝使用航班提醒等服务。</view>
@@ -194,7 +228,6 @@
                 </view>
             </view>
         </view>
-
         <view class="am-list am-list-ptext">
             <view class="am-list-header">带标题的文字组合列表项</view>
             <view class="am-list-header-sp">文字组合列表</view>
@@ -205,7 +238,6 @@
                         <view class="am-list-brief">“全球未来机场计划”是指未来游客在海外机场，通过支付宝使用航班提醒等服务。</view>
                     </view>
                 </view>
-
                 <view class="am-list-item">
                     <view class="am-list-content">
                         <view class="am-list-title">标题</view>
@@ -221,30 +253,32 @@
                 <a class="am-list-item am-list-item-more">查看更多</a>
             </view>
         </view>
-
         <view class="am-list am-list-ptext">
             <view class="am-list-header">带标题、文字组合列表项</view>
             <view class="am-list-header-sp">图文组合列表</view>
             <view class="am-list-body">
                 <view class="am-list-item">
-                    <view class="am-list-thumb"><image src="https://gw.alipayobjects.com/zos/rmsportal/KXDIRejMrRdKlSEcLseB.png"></image></view>
-                    <view class="am-list-content">
-                        <view class="am-list-title">标题</view>
-                        <view class="am-list-brief">“全球未来机场计划”是指未来游客在海外机场，通过支付宝使用航班提醒等服务。</view>
+                    <view class="am-list-thumb">
+                        <image src="https://gw.alipayobjects.com/zos/rmsportal/KXDIRejMrRdKlSEcLseB.png"></image>
                     </view>
-                </view>
-
-                <view class="am-list-item">
-                    <view class="am-list-thumb"><image src="https://gw.alipayobjects.com/zos/rmsportal/KXDIRejMrRdKlSEcLseB.png"></image></view>
-
                     <view class="am-list-content">
                         <view class="am-list-title">标题</view>
                         <view class="am-list-brief">“全球未来机场计划”是指未来游客在海外机场，通过支付宝使用航班提醒等服务。</view>
                     </view>
                 </view>
                 <view class="am-list-item">
-                    <view class="am-list-thumb"><image src="https://gw.alipayobjects.com/zos/rmsportal/KXDIRejMrRdKlSEcLseB.png"></image></view>
-
+                    <view class="am-list-thumb">
+                        <image src="https://gw.alipayobjects.com/zos/rmsportal/KXDIRejMrRdKlSEcLseB.png"></image>
+                    </view>
+                    <view class="am-list-content">
+                        <view class="am-list-title">标题</view>
+                        <view class="am-list-brief">“全球未来机场计划”是指未来游客在海外机场，通过支付宝使用航班提醒等服务。</view>
+                    </view>
+                </view>
+                <view class="am-list-item">
+                    <view class="am-list-thumb">
+                        <image src="https://gw.alipayobjects.com/zos/rmsportal/KXDIRejMrRdKlSEcLseB.png"></image>
+                    </view>
                     <view class="am-list-content">
                         <view class="am-list-title">标题</view>
                         <view class="am-list-brief">“全球未来机场计划”是指未来游客在海外机场，通过支付宝使用航班提醒等服务。</view>
@@ -254,12 +288,9 @@
             </view>
         </view>
     </view>
-
-    <view class="demo-footer-box">
+        <view class="demo-footer-box">
         <view class="demo-footer">
-            <p>Alipay AntUI Mobile</p>
-            <p>Updated June 2,2016</p>
+          <p>Crazy Urus</p>
         </view>
     </view>
-
 </view>
