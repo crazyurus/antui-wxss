@@ -7,7 +7,8 @@
     "pages/widget/list",
     "pages/widget/picker",
     "pages/widget/switch",
-    "pages/widget/tab"
+    "pages/widget/tab",
+    "pages/demo/transfer"
   ],
   "window": {
     "backgroundTextStyle": "light",

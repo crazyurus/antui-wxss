@@ -1,0 +1,25 @@
+<view class="demo">
+    <view class="demo-content">
+        <view class="user-info">
+          <view class="user-avatar">
+            <image src="http://static.wutnews.net/avatar/214198.jpg" ></image>
+          </view>
+          <view class="user-desc">付款给Crazy Urus(*星)</view>
+        </view>
+        <view class="am-edit-inpage">
+            <view class='am-edit-title' >付款金额</view>
+            <view class="am-edit-input am-input-autoclear">
+                <i class="am-icon-yuan"> </i>
+                <input class="am-edit-value" type="number" placeholder="1024" autofocus="autofocus" />
+                <view class="am-edit-clear"><i class="am-icon-clear am-icon clear-tiny"></i></view>
+            </view>
+            <view class="am-edit-tips am-input-autoclear">
+                <input type="text" placeholder="添加备注（20字以内）" value="" />
+                <view class="am-edit-clear"><i class="am-icon-clear am-icon"></i></view>
+            </view>
+        </view>
+        <view class="single-demo-button" style="margin-top:30px; padding: 0 16px;">
+            <button type="button" class="am-button">确认付款</button>
+        </view>
+    </view>
+</view>

@@ -56,6 +56,18 @@
                 </navigator>
             </view>
         </view>
+        <view class="am-list">
+            <view class="am-list-header">页面</view>
+            <view class="am-list-body">
+                <navigator url="/pages/demo/transfer" class="am-list-item">
+                    <view class="am-list-content">转账</view>
+                    <text class="am-bubble reddot"></text>
+                    <view class="am-list-arrow">
+                        <text class="am-icon arrow horizontal"></text>
+                    </view>
+                </navigator>
+            </view>
+        </view>
     </view>
     <view class="demo-footer-box">
         <view class="demo-footer">
